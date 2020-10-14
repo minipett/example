@@ -9002,7 +9002,10 @@ textarea.form-control {
   position: relative;
   z-index: 0;
   overflow: hidden;
-  padding: 7em 0; }
+  padding: 3em 0;
+  bottom: 0;
+  width: 100%;
+}
   .footer a {
     color: #00bd56; }
   .footer p {
