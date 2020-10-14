@@ -445,7 +445,13 @@ pre {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto; }
+  @media (max-width: 576px) {
+    .ftco-animate-homepage {
+      padding-top: 50% !important;
+    }
+  }
   @media (min-width: 576px) {
+    
     .container {
       max-width: 540px; } }
   @media (min-width: 768px) {
@@ -8021,7 +8027,7 @@ h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
   line-height: 1.5;
   color: rgba(0, 0, 0, 0.8);
-  font-weight: 400; }
+  font-weight: 600; }
 
 .wrap {
   position: relative;
@@ -8237,7 +8243,9 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  position: relative; }
+  position: relative;
+max-height: 900px;
+}
   @media (max-width: 1199.98px) {
     .hero-wrap {
       background-position: center center !important; } }
