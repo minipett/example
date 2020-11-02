@@ -9809,3 +9809,15 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    
+    .dot {
+      content: '';
+      background: #464344;
+      width: 5px;
+      height: 5px;
+      position: absolute;
+      top: 11px;
+      left: 0;
+      border-radius: 50%;
+      padding-right: 0px;
+    }
